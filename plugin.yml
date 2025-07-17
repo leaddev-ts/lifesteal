@@ -1,0 +1,22 @@
+name: Lifesteal
+main: Lead\Lifesteal\Lifesteal
+version: 1.0.0
+api: 5.0.0
+author: Lead
+description: Lifesteal Plugin by Lead with Paid Revive Support
+
+commands:
+  hearts:
+    description: Cek jumlah heart kamu
+    permission: lifesteal.use
+    aliases: [nyawa]
+  revive:
+    description: Revive player yang mati
+    permission: lifesteal.revive
+    aliases: [hidupkan]
+
+permissions:
+  lifesteal.use:
+    default: true
+  lifesteal.revive:
+    default: true
