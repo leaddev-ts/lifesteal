@@ -1,0 +1,14 @@
+# Batas maksimal health
+max_health: 40
+
+# Minimum health saat masih bisa hidup
+min_health: 1
+
+# Apakah auto-ban saat darah 1 dan mati?
+ban_on_zero: true
+
+# Durasi ban (detik)
+ban_duration: 3600 # 1 jam
+
+# Harga revive (default: 10jt)
+revive_price: 10000000
